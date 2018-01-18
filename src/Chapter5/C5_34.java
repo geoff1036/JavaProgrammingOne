@@ -48,7 +48,7 @@ public class C5_34 {
 
     }
         /**
-         * 
+         * takes the guess from the player and converts it into a comparable int
          * @param hand refers to the choice of the player, or the hand they draw
          * for rock, paper, scissors
          * @return handGuess to the main method to be compared to the computer's guess
@@ -70,7 +70,7 @@ public class C5_34 {
         return handGuess;
     }
         /**
-        * 
+        * Comparing tje final guesses of the two players and deciding a winner
         * @param computer takes the final guess from the computer
         * @param player takes the final guess from the player
         * @return the result after comparing the two parameters, who won and who lost

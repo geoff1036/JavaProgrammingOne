@@ -27,7 +27,7 @@ public class C6_18 {
 			(isValidPassword(password) ? "Valid " : "Invalid ") + "Password");
 	}
         /**
-        * 
+        * receives the returns from all the other methods and returns whether or not the password is valid
         * @param password recieves the input password from the user to be checked
         * @return whether or not the password is valid, through "validPassword"
     */
@@ -43,11 +43,11 @@ public class C6_18 {
 		return validPassword;
 	}
         /**
-         * 
+         * checks the length of the password
          * @param password receives the string that the user input as password
          * @param validLength decides whether password is
          * too short or is long enough
-         * @returns true or false as pertaining to the password being long enough
+         * @return true or false as pertaining to the password being long enough
          */
          
 	public static boolean isLengthValid(String password, int validLength)
@@ -55,7 +55,7 @@ public class C6_18 {
 		return password.length() >= validLength;
 	}
         /**
-         * 
+         * checks the character makeup of the password
          * @param password receives the user's password 
          * and decides what type of characters make up the password, preferring 
          * letters and digits
@@ -73,7 +73,7 @@ public class C6_18 {
 		return true;
 	}
         /**
-         * 
+         * checks the amount of numbers in the password
          * @param password receives the user's password
          * @param n is used to decide if there are enough digits in the password
          * @return true or false as whether or

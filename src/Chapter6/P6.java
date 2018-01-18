@@ -58,7 +58,7 @@ public class P6 {
 
     }
 /**
- * 
+ * exchanges the dollars to the specified currency and returns the exchanged amount
  * @param dollars accepts the amount of money the user is inputting
  * @param exchangeRate accepts the appropriate exchange rate to convert the "dollars" variable
  * @return the exchanged "dollars" value
